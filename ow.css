@@ -1,0 +1,7 @@
+[page-subtype=home],
+#items > ytd-guide-entry-renderer:nth-child(1),
+#items > ytd-guide-entry-renderer:nth-child(2),
+#items > ytd-mini-guide-entry-renderer:nth-child(1),
+#items > ytd-mini-guide-entry-renderer:nth-child(2) {
+	display: none;
+}
