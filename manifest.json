@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Over Watch",
+	"version": "0.2",
+	"description": "Removes distracting content (recommendations, trending) and replaces it with videos from the Watch Later tab.",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.youtube.com/*", "http://www.youtube.com/*"
+			],
+			"js": ["jquery-3.4.1.min.js", "js.js"],
+			"css": ["css.css"]
+		}
+	]
+}
